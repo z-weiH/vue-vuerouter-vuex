@@ -13,9 +13,9 @@ VueComponent.init();
 import router from './router';
 import store from './store';
 
-/* router.push({
-  path : 'default2'
-}); */
+router.replace({
+  path : '/background/default'
+});
 
 
 

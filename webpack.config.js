@@ -31,6 +31,8 @@ const config = {
     },
     // 配置 服务器环境
     devServer: {
+        // 配置ip
+        host: '192.168.1.105',
         historyApiFallback: true,
         inline: true,
         // 默认打开 对应host 页面
